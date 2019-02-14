@@ -16,8 +16,6 @@ RUN yarn install
 
 ADD . /app
 
-RUN yarn run doc
-
 RUN NODE_ENV=test sh ./ci-build.sh; exit 0
 
 RUN yarn install --production && rm -rf coverage
