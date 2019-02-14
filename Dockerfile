@@ -8,11 +8,9 @@ ENV TZ=Europe/Berlin
 
 RUN ln -snf /usr/share/zoneinfo/Europe/Berlin /etc/localtime && echo "Europe/Berlin" > /etc/timezone
 
-RUN mkdir /app && mkdir /app/doc && mkdir /app/log
+RUN mkdir /app && mkdir /app/doc
 
 WORKDIR /app
-
-ADD package.json yarn.lock .npmrc /app/
 
 RUN yarn install
 
