@@ -1,0 +1,11 @@
+.git/
+node_modules/
+doc/
+log/
+coverage/
+.dockerignore
+.gitignore
+.gitattributes
+Dockerfile
+docker-build.sh
+docker-run.sh

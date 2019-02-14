@@ -1,11 +1,17 @@
 {
   "name": "lounge-spy-server",
   "version": "1.0.0",
-  "main": "sources/index.js",
-  "license": "MIT",
+  "description": "This is a template for node services",
+  "main": "./sources/index.js",
   "scripts": {
     "start": "node sources/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:CHECK24/lounge-spy-server.git"
+  },   
+  "author": "bu-dev@check24.de",
+  "license": "ISC",
   "dependencies": {
     "koa": "2.6.1",
     "koa-cors": "0.0.16",

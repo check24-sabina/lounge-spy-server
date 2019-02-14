@@ -5,11 +5,11 @@
   "lounges": [
      {
       "name": "Lounge 1",
-      "spies": [1,2]
+      "spies": ["172.30.117.56"]
     },
    {
       "name": "Lounge 2",
-      "spies": [1,2]
+      "spies": []
     }
   ]
 }
