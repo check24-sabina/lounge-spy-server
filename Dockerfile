@@ -43,5 +43,5 @@ WORKDIR /app
 
 EXPOSE $PORT
 
-CMD [ "node", "sources/server.js" ]
+CMD [ "node", "sources/index.js" ]
 
